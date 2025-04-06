@@ -41,7 +41,7 @@ const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a 
-                href="mailto:aryan.rajput@example.com" 
+                href="mailto:rajputaryan2780@gmail.com" 
                 className="text-gray-600 hover:text-tech transition-colors"
               >
                 <Mail className="h-6 w-6" />
@@ -53,7 +53,7 @@ const Hero = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-tech to-blue-600 opacity-10"></div>
               <img 
-                src="/placeholder.svg"
+                src="/lovable-uploads/a2cdb867-e700-4717-82ab-44a34a241881.png"
                 alt="Aryan Rajput"
                 className="rounded-full w-full h-full object-cover border-4 border-white shadow-xl"
               />
