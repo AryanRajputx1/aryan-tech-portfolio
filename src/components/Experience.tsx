@@ -6,29 +6,30 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "IT Support Specialist",
-      company: "1Valet",
-      location: "Ottawa, Canada",
-      period: "January 2022 - Present",
+      title: "Administrative Coordinator",
+      company: "The Brick",
+      location: "Mississauga, Canada",
+      period: "January 2025 - Present",
       description: [
-        "Set up and configured LAN/WAN networks to ensure optimal performance and connectivity",
-        "Used tools like ping, tracert, and netstat for TCP/IP troubleshooting and configuration",
-        "Provided Level 1 support to executives and team members, resolving hardware and software issues",
-        "Optimized network performance by implementing best practices and regular maintenance",
-        "Managed user accounts and security access across multiple systems"
+        "Organize the stock of office supplies and place orders as needed",
+        "Oversee day-to-day administrative tasks, such as scheduling",
+        "Determine solutions to administrative problems",
+        "Develop and implement administrative systems",
+        "Design and monitor instructional sessions for new software and office procedures, boosting team productivity",
+        "Troubleshoot and resolve various administrative issues, improving workflow and team productivity"
       ]
     },
     {
-      title: "Administrative Coordinator",
-      company: "The Brick",
-      location: "Hamilton, Canada",
-      period: "March 2019 - December 2021",
+      title: "IT Support Specialist",
+      company: "1Valet",
+      location: "Mississauga, Canada",
+      period: "May 2024 - January 2025",
       description: [
-        "Managed inventory systems and implemented process improvements to increase efficiency",
-        "Created and monitored instructional sessions for new software and office procedures",
-        "Resolved complex system issues and provided technical support to staff",
-        "Coordinated system implementations and upgrades across departments",
-        "Improved team productivity through effective troubleshooting and support"
+        "Set up and configured LAN/WAN networks, optimizing network performance across multiple locations",
+        "Assisted in system performance optimization and user support for web servers and workstations",
+        "Performed routine network startup and ensured systems ran well",
+        "Diagnosed and resolved network connectivity issues using tools like ping, tracert, and netstat",
+        "Delivered Level 1 support for desktops, workstations, and network devices for Managers and client Executives"
       ]
     }
   ];

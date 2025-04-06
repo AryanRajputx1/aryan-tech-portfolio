@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, Linkedin, ArrowUp } from 'lucide-react';
+import { Mail, Linkedin, ArrowUp, Phone } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -14,11 +14,18 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <h3 className="text-2xl font-bold">Aryan Rajput</h3>
             <p className="mt-2 text-gray-300">IT Support Specialist</p>
+            <p className="mt-1 text-gray-400">Mississauga, ON</p>
+            <p className="mt-1 text-gray-400">
+              <a href="tel:365-476-4945" className="hover:text-tech transition-colors">
+                <Phone className="h-4 w-4 inline mr-1" />
+                365-476-4945
+              </a>
+            </p>
           </div>
 
           <div className="flex space-x-4 mb-6 md:mb-0">
             <a 
-              href="https://linkedin.com/" 
+              href="https://www.linkedin.com/in/aryan-rajput-30496023b/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-tech transition-colors"

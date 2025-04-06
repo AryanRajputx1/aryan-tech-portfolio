@@ -9,23 +9,23 @@ const Certifications = () => {
     {
       name: "CompTIA A+",
       organization: "CompTIA",
-      date: "May 2021",
+      date: "2023",
       id: "COMP001-123456",
       skills: ["Hardware Troubleshooting", "Operating Systems", "Networking", "Security", "Mobile Devices"]
     },
     {
       name: "ITIL Foundation",
       organization: "Axelos",
-      date: "September 2021",
+      date: "2023",
       id: "ITIL-F-789012",
       skills: ["IT Service Management", "ITIL Framework", "Service Strategy", "Service Design", "Continuous Improvement"]
     },
     {
-      name: "Cloud Computing (In Progress)",
-      organization: "Microsoft",
-      date: "Expected December 2025",
-      id: "In Progress",
-      skills: ["Cloud Services", "Azure", "Cloud Security", "Virtualization", "Cloud Storage"]
+      name: "Cloud Computing",
+      organization: "Udemy",
+      date: "2023",
+      id: "UC-123456",
+      skills: ["Cloud Services", "Cloud Security", "Virtualization", "Cloud Storage"]
     }
   ];
 

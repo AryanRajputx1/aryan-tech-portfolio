@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Linkedin, Send } from 'lucide-react';
+import { Mail, Linkedin, Send, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -50,12 +50,36 @@ const Contact = () => {
               
               <div className="flex items-center">
                 <div className="bg-tech-light/20 p-3 rounded-full mr-4">
+                  <Phone className="h-6 w-6 text-tech-dark" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500">Phone</p>
+                  <a href="tel:365-476-4945" className="text-navy-dark hover:text-tech-dark transition-colors">
+                    365-476-4945
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-center">
+                <div className="bg-tech-light/20 p-3 rounded-full mr-4">
+                  <MapPin className="h-6 w-6 text-tech-dark" />
+                </div>
+                <div>
+                  <p className="text-sm text-gray-500">Location</p>
+                  <p className="text-navy-dark">
+                    Mississauga, ON
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-center">
+                <div className="bg-tech-light/20 p-3 rounded-full mr-4">
                   <Linkedin className="h-6 w-6 text-tech-dark" />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">LinkedIn</p>
-                  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-navy-dark hover:text-tech-dark transition-colors">
-                    linkedin.com/in/aryan-rajput
+                  <a href="https://www.linkedin.com/in/aryan-rajput-30496023b/" target="_blank" rel="noopener noreferrer" className="text-navy-dark hover:text-tech-dark transition-colors">
+                    linkedin.com/in/aryan-rajput-30496023b/
                   </a>
                 </div>
               </div>

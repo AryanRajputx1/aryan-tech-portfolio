@@ -8,16 +8,9 @@ const Education = () => {
     {
       degree: "Computer Systems Technician – Software Support",
       institution: "Mohawk College",
-      location: "Hamilton, Canada",
-      period: "2017 - 2019",
+      location: "Mississauga, ON, Canada",
+      period: "Completed",
       description: "Comprehensive diploma program focused on computer systems troubleshooting, software support, network configuration, and IT service management."
-    },
-    {
-      degree: "Bachelor's in Computer Science (Remote, Ongoing)",
-      institution: "Manipal Institute of Technology",
-      location: "Remote Learning",
-      period: "2023 - Present",
-      description: "Currently pursuing advanced knowledge in computer science fundamentals, algorithms, software development, and cloud computing technologies."
     }
   ];
 
@@ -65,7 +58,7 @@ const Education = () => {
               <div className="text-left">
                 <h4 className="font-medium text-navy mb-1">Language Learning</h4>
                 <p className="text-gray-700">
-                  Currently learning French to enhance professional communication skills and expand career opportunities.
+                  Currently learning French to enhance professional communication skills.
                 </p>
               </div>
             </CardContent>

@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
             <div className="flex space-x-4 pt-2">
               <a 
-                href="https://linkedin.com/" 
+                href="https://www.linkedin.com/in/aryan-rajput-30496023b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-tech transition-colors"
